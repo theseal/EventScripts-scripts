@@ -1,0 +1,7 @@
+#!/usr/bin/env osascript
+
+tell application "iTunes"
+    quit
+end tell
+
+do shell script "sudo chmod -x /Applications/iTunes.app/Contents/MacOS/iTunes"
