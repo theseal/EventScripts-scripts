@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-osascript ./kill-itunes
+DIR=$(/usr/bin/dirname "$0")
+
+osascript "${DIR}/kill-itunesy"

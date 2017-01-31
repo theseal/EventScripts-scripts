@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-osascript ./pause-spotify
+DIR=$(/usr/bin/dirname "$0")
+
+osascript "${DIR}/pause-spotify"
