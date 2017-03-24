@@ -2,4 +2,4 @@
 
 DIR=$(/usr/bin/dirname "$0")
 
-osascript "${DIR}/kill-itunesy"
+osascript "${DIR}/kill-itunes"
