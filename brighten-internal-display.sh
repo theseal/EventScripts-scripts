@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-brightness 0.8
+/usr/local/bin/brightness 0.8
